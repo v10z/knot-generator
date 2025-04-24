@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "knot-generator"
+version = "0.1.0"
+description = "A tool to generate and visualize 3D knot patterns."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+pyvista = "*"
+scipy = "*"
+pyqt5 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
